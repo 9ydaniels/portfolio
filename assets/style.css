@@ -1,0 +1,36 @@
+:root{
+--richBlack: var(#040F0F);
+--forestGreen: var(#248232);
+--greenPantone: var(#2BA84A);
+--outerSpace: var(#2D3A3A);
+--babyPowder: var(#FCFFFC);
+--mainText: black
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: var(--mainText);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+    size: 20px;
+}
+
+nav{
+margin: 10px;
+background-color: var(--babyPowder);
+}
+
+section{
+    background-color: var(--outerSpace);
+}
